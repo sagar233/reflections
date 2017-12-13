@@ -4,4 +4,13 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-	staging area is part of git and is a bridge between working directory and repository. It helps to decide which files should be commited and so if they should be commited together.t 
+	staging area is part of git and is a bridge between working directory and repository. It helps to decide which files should be commited and so if they should be commited together. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	The staging area and the repository can be compared with git --staged and changes can be viewed
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches result in arranging all the commits in the branches according to their timestamp. We represesnt them in the diagrams so as to keep track of the branches and get a sense of parents of the commits and so.
+
